@@ -42,6 +42,7 @@ header {
     background-size: cover;
     background-position: top;
     margin-top: 5px;
+    background-attachment: fixed;
 }
 header h1{
     background-color: white;
