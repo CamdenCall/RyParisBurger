@@ -15,6 +15,7 @@ nav {
     height: 70px;
     background-color: var(--yellow);
     padding: 10px 75px;
+    margin-bottom: 5px;
 }
 nav img {
     height: 100%;
@@ -36,10 +37,43 @@ header {
     display: flex;
     justify-content: center;
     align-items: end;
+    background-size: cover;
+    background-position: top;
 }
 header h1{
     background-color: white;
-    padding: 5px 15px;
+    padding: 10px 15px;
     text-transform: uppercase;
+    font-size: 32px;
     font-weight: 800;
+}
+
+section {
+    padding: 50px 100px;
+}
+section h2 {
+    font-size: 28px;
+    margin: 0px;
+}
+section p {
+    margin: 5px 0px;
+}
+section img {
+    height: auto;
+    object-fit: cover;
+}
+.image-text {
+    flex: 1;
+}
+.image-text img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.food-images {
+    margin: 25px 0px;
+    height: 225px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
 }
