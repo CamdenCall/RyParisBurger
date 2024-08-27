@@ -5,8 +5,13 @@ header {
     height: 70vh;
     margin: 0px;
 }
+.recipe-header h1 {
+    font-size: 38px;
+    font-weight: 900;
+}
 .recipe.blue-bg {
     padding: 25px 50px;
+    margin: 0;
 }
 .time .time-info {
     margin-top: 15px;
@@ -19,4 +24,64 @@ header {
 }
 .time span {
     font-weight: 700;
+}
+
+.recipe {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.reviews {
+    margin: 25px;
+    display: flex; 
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.save button {
+    width: 125px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: var(--red);
+    cursor: pointer;
+}
+.quote p {
+    font-size: 22px;
+    color: rgba(0,0,0,0.65);
+    font-weight: 900;
+    padding: 25px;
+    background-color: var(--blue);
+}
+.instructions{
+    display: flex;
+}
+.instructions div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+}
+ul, ol{
+    padding: 0px 20px;
+    font-size: 14px;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+h3 {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
 }
