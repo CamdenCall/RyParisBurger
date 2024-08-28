@@ -5,7 +5,7 @@ header {
     height: 70vh;
     margin: 0px;
 }
-.recipe-header h1 {
+.recipe-header h2 {
     font-size: 38px;
     font-weight: 900;
 }
