@@ -10,17 +10,21 @@ header {
     font-weight: 900;
 }
 .recipe.blue-bg {
-    padding: 25px 50px;
+    padding: 25px 100px;
     margin: 0;
+}
+.time {
+    text-align: left;
 }
 .time .time-info {
     margin-top: 15px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 15px;
-    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: none;
+    gap: 0px 50px;
+}
+.time p {
+    min-width: 0px;
 }
 .time span {
     font-weight: 700;
@@ -84,5 +88,5 @@ ol {
 }
 h3 {
     padding: 0px;
-    margin: 5px 0px 0px 0px;
+    margin: 0px;
 }
